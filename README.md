@@ -14,17 +14,29 @@ We develop SynReEM, an end-to-end synapse reconstruction framework for anisotrop
 
 ## Overview
 
-## The basic idea of SynReEM
+### The basic idea of SynReEM
 
 <div  align="center">    
-	<img src="https://github.com/fenglingbai/SynReEM/blob/main/fig/p2_motivation.png" width = "600px" />
+	<img src="https://github.com/fenglingbai/SynReEM/blob/main/fig/p2_motivation.png" width = "500px" />
 </div>
 
-## The basic architecture of SynReEM
+### The basic architecture of SynReEM
 
 <div  align="center">    
-	<img src="https://github.com/fenglingbai/SynReEM/blob/main/fig/p3_SynReEM.png" width = "600px" />
+	<img src="https://github.com/fenglingbai/SynReEM/blob/main/fig/p3_SynReEM.png" width = "500px" />
 </div>
+
+### Synapse reconstruction results display
+
+
+<video width="800" controls autoplay loop muted>
+  <source src="https://github.com/fenglingbai/SynReEM/blob/main/video/Kasthuri.mp4" type="video/mp4">
+  你的浏览器不支持视频播放，请下载视频查看：https://raw.githubusercontent.com/你的用户名/仓库名/分支名/视频文件路径.mp4
+</video>
+
+<!-- <div  align="center">    
+	<img src="https://github.com/fenglingbai/SynReEM/blob/main/video/p3_SynReEM.png" width = "500px" />
+</div> -->
 
 ## Installation
 
