@@ -377,7 +377,7 @@ def obtain_APdsb_one_hot(gt_image, prediction_image, ap_val):
     return score
 
 
-def calculate_instance(y_true, y_pred, resolution):
+def calculate_instance(y_true, y_pred):
     ap_val = 0.5
     all_results = matching_dataset(
         y_true=y_true,
@@ -390,7 +390,7 @@ def calculate_instance(y_true, y_pred, resolution):
           ' f1: %.2f'%(all_results.f1 * 100), 
           ' accuracy: %.2f'%(all_results.accuracy * 100), )
 
-def calculate_semantics(y_true, y_pred):
+def calculate_semantics(y_true, y_pred, resolution):
     gt_array = (y_true > 0).astype(np.uint8)
     pre_array = (y_pred > 0).astype(np.uint8)
     intersection = np.sum((gt_array == 1)*(pre_array == 1))

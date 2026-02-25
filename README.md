@@ -5,8 +5,21 @@ We develop SynReEM, an end-to-end synapse reconstruction framework for anisotrop
 
 
 
-We will make the code publicly available as soon as our article is published.
+<!-- TOC start -->
+   * [Overview](#overview)
+   * [Installation](#installation)
+   * [Getting Started](#getting-started)
+      + [AEMC Data Preprocessing](#aemc-data-preprocessing)
+      + [Segmentation process](#segmentation-process)
+      + [Graph aggregation reconstruction](#graph-aggregation-reconstruction)
 
+<!-- TOC end -->
+
+
+
+ 
+
+## Overview
 
 ## The basic idea of SynReEM
 
@@ -19,3 +32,25 @@ We will make the code publicly available as soon as our article is published.
 <div  align="center">    
 	<img src="https://github.com/fenglingbai/SynReEM/blob/main/fig/p3_SynReEM.png" width = "600px" />
 </div>
+
+## Installation
+
+## Getting Started
+
+### AEMC Data Preprocessing
+
+
+
+### Segmentation process
+
+
+
+### Graph aggregation reconstruction
+
+## Data demo
+
+
+
+
+
+
