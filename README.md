@@ -31,13 +31,18 @@ We develop SynReEM, an end-to-end synapse reconstruction framework for anisotrop
 #### MICrONS
 
 
-https://github.com/user-attachments/assets/1b76e9f9-36ee-4b0e-a602-1696061e04de
+
+https://github.com/user-attachments/assets/96d409df-7c54-4d9a-9573-cd6aa7d640fd
+
+
 
 #### Kasthuri
 
 
 
-https://github.com/user-attachments/assets/8863edc0-3b2a-47eb-9cf6-44751263b3d5
+https://github.com/user-attachments/assets/a7e69201-47a4-4832-97b8-6e95ef078925
+
+
 
 
 ## Installation
