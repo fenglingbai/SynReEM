@@ -45,6 +45,8 @@ https://github.com/user-attachments/assets/a7e69201-47a4-4832-97b8-6e95ef078925
 
 High-definition (HD) versions of the video can be found [here](./video).
 
+Video download: [google drive](https://drive.google.com/drive/folders/1IQ47rU_LfFwv3_m0MyLrHNk4BUy3KNbt?usp=sharing)
+
 ## Installation
 
 1. Clone the repository:
