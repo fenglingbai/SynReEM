@@ -43,7 +43,7 @@ https://github.com/user-attachments/assets/96d409df-7c54-4d9a-9573-cd6aa7d640fd
 https://github.com/user-attachments/assets/a7e69201-47a4-4832-97b8-6e95ef078925
 
 
-
+High-definition (HD) versions of the video can be found [here](./video).
 
 ## Installation
 
