@@ -47,6 +47,14 @@ High-definition (HD) versions of the video can be found [here](./video).
 
 Video download: [google drive](https://drive.google.com/drive/folders/1IQ47rU_LfFwv3_m0MyLrHNk4BUy3KNbt?usp=sharing)
 
+## Dataset
+
+Synapse178: [google drive](https://drive.google.com/drive/folders/1O7-b4nZu0eu_Uj194ubzPAQwUVLvjoHA?usp=sharing)
+
+SynWTAD: [google drive](https://drive.google.com/drive/folders/1GKV12HYoIp14d54WzdcILnD3_EuuUvHX?usp=sharing)
+
+
+
 ## Installation
 
 1. Clone the repository:
