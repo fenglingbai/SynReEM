@@ -20,23 +20,17 @@ We develop SynReEM, an end-to-end synapse reconstruction framework for anisotrop
 	<img src="https://github.com/fenglingbai/SynReEM/blob/main/fig/p2_motivation.png" width = "500px" />
 </div>
 
-The encoding motivation of SynReEM. Instance segmentation generally consists of three steps: instance localization, region estimation, and deduplication. Anchor-based methods (top) implement these steps via anchor classification, bounding box regression, and non-maximum suppression (NMS). In contrast, SynReEM (bottom) achieves the same objective using core region (red line) discrimination, attention region (translucent purple area) recognition, and core region (red line) aggregation. Bbox: bounding box; NMS: non-maximum suppression.
-
 ### The basic architecture of SynReEM
 
 <div  align="center">    
 	<img src="https://github.com/fenglingbai/SynReEM/blob/main/fig/p3_SynReEM.png" width = "500px" />
 </div>
 
-SynReEM architecture. We re-encode instance labels according to the synapse structure to obtain AEMC labels (the orange box). The dual-branch head predicts AEMC and semantic labels with the help of shared feature maps. The prediction results are jointly decoded to obtain instance reconstruction (the blue box). To utilize the prior structural constraints of AEMC, we design continuity constraints and inclusion constraints to improve the model's contextual awareness and prediction plausibility through online pseudo-labeling (the green box). FP: False Positive, FN: False Negative.
-
 ### The Reconstruction Process of SynReEM
 
 <div  align="center">    
 	<img src="https://github.com/fenglingbai/SynReEM/blob/main/fig/p4_reconstruction.png" width = "500px" />
 </div>
-
-Synapse reconstruction through semantic and AEMC joint decoding. 1) Graph construction. We use a sliding window to traverse the connected domain of the attention area in AEMC and extract the core area as the graph node. 2) Graph partitioning. The distance field is constructed layer by layer through the graph nodes, and the edge weights between points are calculated to aggregate the similar points. 3) Instance reconstruction. The aggregated nodes are assigned different labels as seed points, and the instance reconstruction is completed by the watershed algorithm on the height field constructed by AEMC.
 
 ### Synapse reconstruction results display
 
