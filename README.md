@@ -26,6 +26,12 @@ We develop SynReEM, an end-to-end synapse reconstruction framework for anisotrop
 	<img src="https://github.com/fenglingbai/SynReEM/blob/main/fig/p3_SynReEM.png" width = "500px" />
 </div>
 
+### The Reconstruction Process of SynReEM
+
+<div  align="center">    
+	<img src="https://github.com/fenglingbai/SynReEM/blob/main/fig/p4_reconstruction.png" width = "500px" />
+</div>
+
 ### Synapse reconstruction results display
 
 #### MICrONS
